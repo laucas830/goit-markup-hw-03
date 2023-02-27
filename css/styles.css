@@ -1,0 +1,201 @@
+:root {
+  --brand-font: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  --color-1: #2193f3;
+  --color-2: #212121;
+  --color-3: #757575;
+  --color-4: #ffffff;
+  --color-5: #2f303a;
+  --color-6: #f5f4fa;
+  --color-7: rgba(255, 255, 255, 0.6);
+  --color-8: #e5e5e5;
+  --color-9: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  color: #212121;
+  letter-spacing: 0.03em;
+}
+
+/*enlaces general: eliminé el subrayado y especifiqué el color general*/
+a {
+  text-decoration: none;
+  color: #212121;
+}
+
+/*eliminé las viñetas de todas las ul*/
+ul {
+  list-style-type: none;
+}
+
+/*efecto de los enlaces*/
+a:hover {
+  color: var(--color-1);
+}
+
+/*propiedades del enlace WebStudio, en header y footer*/
+.text-webstudio {
+  font-family: "Raleway", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  text-align: right;
+  color: var(--color-1);
+}
+
+/*fuente del menu superierior de navegación excluyendo WebStudio*/
+.header-navigation-without-webstudio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--color-2);
+}
+
+/*color de texto mail y telefono encabezado index y portafolio*/
+.color-mail-phone-header {
+  color: var(--color-3);
+}
+
+/*clase para dar color-1 al nombre de la página actual de navegación*/
+.site-nav .nav-active {
+  color: var(--color-1);
+}
+
+/*id creado para el título*/
+#titulo {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--color-4);
+  text-align: center;
+}
+
+/*color y alineado de la seccion del título y botón 1*/
+.section-title-background-color {
+  background: var(--color-5);
+  text-align: center;
+}
+
+/*clase aplicada a los h3, seccion de beneficios de index*/
+.titles-company-benefits {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/*clase aplicada a los p, seccion de beneficios de index*/
+.text-company-benefits {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--color-3);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
+}
+
+/*sección nuestro equipo en index*/
+.equipment-section {
+  background: var(--color-6);
+}
+
+/*clase aplicada a los h3, sección de nuestro equipo de index*/
+.titles-our-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+/*clase aplicada a los p, seccion de nuestro equipo de index*/
+.text-our-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--color-3);
+}
+
+/*clase aplicada a los h3 de tarjetas de proyectos, portafolio*/
+.portfolio-card-titles {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+/*clase aplicada a los p de tarjetas de proyectos, portafolio*/
+.portafolio-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--color-3);
+}
+
+.portafolio-cursor-cards {
+  cursor: pointer;
+}
+
+.button-studio {
+  font-family: var(--brand-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-4);
+
+  background: var(--color-1);
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.buttons-portafolio {
+  font-family: var(--brand-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-2);
+
+  background: var(--color-9);
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*botones cambian de color de fuente y fondo al paso del cursor*/
+button:hover {
+  background: var(--color-1);
+  color: var(--color-4);
+}
+
+/*color fondo footer index y portafolio*/
+.footer-background-color {
+  background: var(--color-5);
+}
+
+/*clase aplicada a la direccion, footer*/
+.footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1, 71;
+  color: var(--color-4);
+}
+
+/*clase aplicada a mail y correo, footer*/
+.footer-mail-tel {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1, 71;
+  color: var(--color-7);
+}
