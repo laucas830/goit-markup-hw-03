@@ -76,6 +76,24 @@ a:hover {
   color: var(--color-1);
 }
 
+/*header*/
+.header-border {
+  border-bottom: 1px solid #ececec;
+}
+
+.webstudio-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+
+
+
+/*aquí voy*/
+.container {
+  width: 1200px;
+
+}
 /*propiedades del enlace WebStudio, en header y footer*/
 .text-webstudio {
   font-family: "Raleway", Verdana, Geneva, Tahoma, sans-serif;
