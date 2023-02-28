@@ -1,3 +1,46 @@
+/*complement normalize*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*start*/
 :root {
   --brand-font: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
   --color-1: #2193f3;
@@ -61,8 +104,8 @@ a:hover {
   color: var(--color-1);
 }
 
-/*id creado para el título*/
-#titulo {
+/*título index*/
+.titulo {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -199,3 +242,4 @@ button:hover {
   line-height: 1, 71;
   color: var(--color-7);
 }
+
