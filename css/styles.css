@@ -34,13 +34,6 @@ address {
   color: inherit;
 }
 
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/*start*/
 :root {
   --brand-font: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
   --color-1: #2193f3;
@@ -76,6 +69,11 @@ a:hover {
   color: var(--color-1);
 }
 
+.list {
+  list-style: none;
+  margin-left: auto;
+}
+
 .container {
   margin: 0 auto;
   width: 1200px;
@@ -87,35 +85,34 @@ a:hover {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/*hasta aquí voy*/
-
-
-/*header*/
-.header-border {
+/*-----------header----------*/
+.header {
   border-bottom: 1px solid #ececec;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
-.webstudio-header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+.header-container {
+  display: flex;
+  align-items: center;
 }
-
-
-
-
-/*aquí voy*/
-.container {
-  width: 1200px;
-
+.navigation,
+.list {
+  display: flex;
+  align-items: center;
+}
+.int-space:not(:last-child) {
+  margin-right: 50px;
 }
 /*propiedades del enlace WebStudio, en header y footer*/
+/*ok*/
 .text-webstudio {
   font-family: "Raleway", Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1, 19;
-  text-align: right;
   color: var(--color-1);
+  margin-right: 93px;
 }
 
 /*fuente del menu superierior de navegación excluyendo WebStudio*/
@@ -124,8 +121,13 @@ a:hover {
   font-size: 14px;
   line-height: 1.17;
   color: var(--color-2);
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
+.contacts-header {
+  margin-left: auto;
+}
 /*color de texto mail y telefono encabezado index y portafolio*/
 .color-mail-phone-header {
   color: var(--color-3);
@@ -135,20 +137,24 @@ a:hover {
 .site-nav .nav-active {
   color: var(--color-1);
 }
+/*--------------main--------------*/
 
+/*color y alineado de la seccion del título y botón 1*/
+/*hero*/
+.section-title {
+  background: var(--color-5);
+  text-align: center;
+}
+/*hasta aquí*/
 /*título index*/
-.titulo {
+.title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   color: var(--color-4);
   text-align: center;
-}
-
-/*color y alineado de la seccion del título y botón 1*/
-.section-title-background-color {
-  background: var(--color-5);
-  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /*clase aplicada a los h3, seccion de beneficios de index*/
@@ -274,4 +280,3 @@ button:hover {
   line-height: 1, 71;
   color: var(--color-7);
 }
-
