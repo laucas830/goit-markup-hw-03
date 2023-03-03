@@ -145,7 +145,14 @@ a:hover {
   background: var(--color-5);
   text-align: center;
 }
-/*hasta aquí*/
+.title-button-subsection {
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
 /*título index*/
 .title {
   font-weight: 900;
@@ -155,13 +162,39 @@ a:hover {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
+.button-studio {
+  font-family: var(--brand-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--color-4);
+  background: var(--color-1);
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+}
+/*------main-benefits-----*/
 /*clase aplicada a los h3, seccion de beneficios de index*/
 .titles-company-benefits {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 /*clase aplicada a los p, seccion de beneficios de index*/
@@ -170,18 +203,76 @@ a:hover {
   font-size: 14px;
   line-height: 1.71;
   color: var(--color-3);
+  letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-h2 {
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  align-items: flex-start;
+}
+
+.benefist-item {
+  flex-basis: calc((100% - 120px) / 4);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+/*--------a que nos dedicamos....----*/
+.main-subtitles {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  margin-top: 0px;
 }
 
-/*sección nuestro equipo en index*/
+.img-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.img-item {
+  flex-basis: calc((100% - 90px) / 3);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+/*----------sección nuestro equipo en index-------*/
 .equipment-section {
   background: var(--color-6);
+}
+/*ul*/
+.our-team-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.team-item {
+  flex-basis: calc((100% - 120px) / 4);
+  margin-left: 30px;
+  margin-top: 30px;
+  background-color: var(--color-4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-menber {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*clase aplicada a los h3, sección de nuestro equipo de index*/
@@ -190,6 +281,9 @@ h2 {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 /*clase aplicada a los p, seccion de nuestro equipo de index*/
@@ -199,7 +293,13 @@ h2 {
   line-height: 1.18;
   text-align: center;
   color: var(--color-3);
+  letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
+/*finalizo main de index*/
+
+/*------footer------*/
 
 /*clase aplicada a los h3 de tarjetas de proyectos, portafolio*/
 .portfolio-card-titles {
